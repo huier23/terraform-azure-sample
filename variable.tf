@@ -39,3 +39,6 @@ variable "profile_win_pass" {
   default = "!QAZ2wsx3edcIloveAzure"
 }
 
+variable "storage" {
+  default = "sgtfazuresample"
+}

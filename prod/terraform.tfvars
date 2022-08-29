@@ -1,5 +1,7 @@
 env = "prod"
+rg = "rg-prod-tf-azure-sample"
 virtualnet = "prod-vnet-tf-azure-sample"
 vnet-subnet = "prod-subnet-aks-tf-azure-sample"
 aks  = "prod-aks-tf-azure-sample"
 aks_dns_prefix  = "prod-dns-aks-tf-azure-sample"
+storage = "prod-sgtfazuresample"

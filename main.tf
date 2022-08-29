@@ -122,3 +122,13 @@ resource "azurerm_kubernetes_cluster_node_pool" "linux-node-pool" {
   max_count = 5
   min_count = 1
 }
+
+/* storage account */
+# resource "azurerm_storage_account" "storage" {
+#   name                     = var.storage
+#   resource_group_name      = var.rg
+#   location                 = var.location
+#   account_tier             = "Standard"
+#   account_replication_type = "LRS"
+#   depends_on = [ azurerm_resource_group.resourcegroup ]
+# }
